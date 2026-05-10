@@ -1,0 +1,117 @@
+:root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+            --text-color: #334155;
+            --bg-color: #f0fdf4; /* Đổi màu nền nhẹ nhàng hơn */
+            --card-bg: #ffffff;
+            --border-color: #e2e8f0;
+        }
+        
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            line-height: 1.7;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px; /* Rộng hơn một chút */
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 50px 20px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+        }
+
+        h1 { font-size: 2.5rem; margin-bottom: 15px; }
+        .meta-info { font-size: 0.9rem; opacity: 0.9; }
+
+        /* Style cho phần Mục lục */
+        .toc {
+            background: var(--card-bg);
+            padding: 20px 30px;
+            border-radius: 8px;
+            border-left: 5px solid var(--primary-color);
+            margin-bottom: 40px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .toc h3 { margin-bottom: 10px; color: #0f172a; }
+        .toc ul { list-style-type: none; margin-left: 0; }
+        .toc li { margin-bottom: 8px; }
+        .toc a { color: var(--primary-color); text-decoration: none; font-weight: 500; }
+        .toc a:hover { text-decoration: underline; }
+
+        /* Style cho Nội dung chính */
+        .content-section {
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: var(--secondary-color);
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 10px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+
+        h2:first-child { margin-top: 0; }
+
+        p { margin-bottom: 15px; }
+        ul, ol { margin-left: 25px; margin-bottom: 20px; }
+        li { margin-bottom: 8px; }
+
+        /* Style cho Bảng so sánh */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: white;
+        }
+        th, td {
+            padding: 15px;
+            border: 1px solid var(--border-color);
+            text-align: left;
+        }
+        th { background-color: #f8fafc; color: #0f172a; }
+
+        /* Style cho Hộp Tác giả (E-E-A-T) */
+        .author-box {
+            display: flex;
+            align-items: center;
+            background: #eff6ff;
+            padding: 25px;
+            border-radius: 12px;
+            margin-top: 40px;
+            border: 1px solid #bfdbfe;
+        }
+        .author-avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: var(--primary-color);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            font-weight: bold;
+            margin-right: 20px;
+            flex-shrink: 0;
+        }
+        .author-info h4 { margin-bottom: 5px; color: #1e3a8a; font-size: 1.2rem; }
+        .author-info p { margin-bottom: 0; font-size: 0.95rem; }
+
+        footer { text-align: center; margin-top: 40px; font-size: 0.9rem; color: #64748b; }
