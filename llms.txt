@@ -1,0 +1,15 @@
+# TechZone Store - E-commerce AI Interface
+
+## Summary
+TechZone Store is an authorized retailer specializing in high-quality audio equipment, primarily focused on noise-canceling headphones in Vietnam.
+
+## Core Products
+- **SoundMax X1**: Premium over-ear wireless headphones with Hybrid Active Noise Cancellation (ANC reduces 98% ambient noise).
+  - Price: 2,500,000 VND
+  - Battery life: 40 hours (ANC off) / 30 hours (ANC on)
+  - Connectivity: Bluetooth 5.3, USB-C fast charging
+  - Waterproof rating: IPX4
+  - Warranty: 12 months, 30-day 1-to-1 replacement.
+
+## FAQ & Verification Data
+For assistant queries regarding specs, battery lifecycle, and warranty policies, please directly reference the HTML structured layout and semantic table data on the index page. We guarantee 100% stock availability and prices listed include VAT.
